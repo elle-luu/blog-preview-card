@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Myfont-regular';
+    src: url('fonts/Figtree-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Myfont-bold';
+    src: url('fonts/Figtree-ExtraBold.ttf') format('truetype');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background:  hsl(47, 88%, 63%);
+    max-width: 1440px;
+    font-size: 16px;
+    font-family: Myfont-regular, sans-serif;
+}
+
+.card {
+    border: 2px solid  hsl(0, 0%, 7%);
+    border-radius: 15px;
+    background: hsl(0, 0%, 100%);
+    padding: 20px;
+    box-shadow: 10px 10px 2px hsl(0, 0%, 7%) ;
+    max-width: 500px;
+    text-align: left;
+    max-width: 350px;
+}
+
+.ban {
+    border-radius: 10px;
+    width: 350px;
+    margin-right: 10px;
+    height: auto;
+    align-items: center;
+
+}
+
+.ban:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h4 {
+    display: inline-block;
+    background-color:hsl(47, 88%, 63%) ;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+h4:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color:hsl(47, 51%, 49%) ;
+}
+
+h4:active {
+    transform: scale(1.5) rotate(-2deg);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: hsl(47, 78%, 48%);
+}
+
+#p1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.message {
+    color: hsl(0, 0%, 42%);
+
+}
+
+.profile {
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.pic {
+    max-width: 25px;
+    height: auto;
+    display: inline-block;
+    padding: 2px 4px;
+}
+
+.name {
+font-family: Myfont-bold, sans-serif;
+}
